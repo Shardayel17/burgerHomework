@@ -1,6 +1,6 @@
 $(function () {
     $(".btn-EatBurger").on("click", function (event) {
-        var id = $(this).data("id");
+        var id = $(this).data("Burger_ID");
 
 
         $.ajax("/api/burgers/" + id, {
